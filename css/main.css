@@ -94,3 +94,58 @@ footer {
     font-family: Snell Roundhand;
     width: 100%;
 }
+
+/* media Q */
+
+@media (min-width: 500px) {
+
+    main {
+        text-align: center;
+        color: #fffdf4;
+        width: 50%;
+        font-family: Helvetica;
+        font-size: 0.75rem;
+        padding-top: 20px;
+    }
+
+    article {
+        margin: 0 0 0 0;
+        width: 50%;
+    }
+
+    .img {
+        padding: 2%;
+        width: 100%;
+        display: block;
+    }
+
+    .img3 {
+        width: 60%;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    aside {
+        width: 50%;
+        float: right;
+    }
+
+    section {
+        width: 50%;
+        height: 100px;
+        float: right;
+    }
+
+    .button {
+        display: block;
+        padding-top: 50px;
+    }
+
+    .dp1 {
+        display: block;
+    }
+
+    .dp2 {
+        display: none;
+    }
+}
