@@ -1,0 +1,96 @@
+body {
+    background-image: url(backg.jpg);
+    background-color: aqua;
+}
+
+.container {
+    background-color: #00ac9c;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    opacity: 0.9;
+    padding-top: 10px;
+}
+
+.img {
+    margin: auto;
+    width: 50%;
+    display: block;
+}
+
+.img2 {
+    margin: auto;
+    display: block;
+}
+
+.button {
+    display: block;
+}
+
+.button:hover {
+    opacity: 0.5;
+}
+
+.button:active {
+    background-color: darkslateblue;
+}
+
+.dp1 {
+    display: none;
+}
+
+.link {
+    font-family: Helvetica;
+    color: #ca333c;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    color: #fffdf4;
+    font-family: Helvetica;
+    font-size: 0.75rem;
+    padding: 1%;
+}
+
+h1 {
+    font-family: Snell Roundhand;
+    color: #55300d;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: Minion Pro;
+    color: #ca333c;
+}
+
+header {
+    background-image: url(header.jpg);
+    background-color: green;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+}
+
+main {
+    text-align: center;
+    color: #fffdf4;
+    font-family: Helvetica;
+    font-size: 0.75rem;
+    padding-top: 20px;
+}
+
+article {
+    margin: auto;
+}
+
+footer {
+    background-color: #55300d;
+    color: #fffdf4;
+    font-family: Snell Roundhand;
+    width: 100%;
+}
