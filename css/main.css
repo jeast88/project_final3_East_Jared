@@ -147,6 +147,31 @@ a{color:#336699;}
 
 }
 
+.hs {
+    width: 60%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: auto;
+    clear: both;
+    padding: 2%;
+    border: 5px;
+    border-style: double;
+    border-color: #55300d;
+    border-radius: 20px;
+}
+
+.hs p {
+    color: black;
+    padding: 2%;
+    border: 2px;
+    border-style: double;
+    border-color: #00ac9c;
+    border-radius: 20px;
+    margin-bottom: 2%;
+
+}
+
 p {
     text-align: center;
     color: #fffdf4;
@@ -199,6 +224,16 @@ footer {
     color: #fffdf4;
     font-family: Snell Roundhand;
     width: 100%;
+}
+
+.footer2 {
+    background-color: #55300d;
+    color: #fffdf4;
+    font-family: Snell Roundhand;
+    width: 96%;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
 }
 
 /* media Q */
